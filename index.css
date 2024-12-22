@@ -44,3 +44,25 @@ header {
     transform: scale(1.05); /* Scale up on hover */
     box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00; /* Neon effect on hover */
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .welcome-message {
+        font-size: 48px; /* Smaller font size for tablets */
+    }
+
+    .card-container {
+        flex-direction: column; /* Stack cards vertically */
+        gap: 10px; /* Reduced space between cards */
+    }
+}
+
+@media (max-width: 480px) {
+    .welcome-message {
+        font-size: 36px; /* Smaller font size for mobile */
+    }
+
+    .card {
+        padding: 15px; /* Reduced padding for smaller screens */
+    }
+}
