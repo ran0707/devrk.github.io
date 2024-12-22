@@ -1,0 +1,46 @@
+/* styles.css */
+body {
+    background-color: #000000; /* Black background */
+    color: #ffffff; /* White text */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    height: 100vh; /* Full height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+}
+
+header {
+    background-color: #000000; /* Black header */
+    padding: 20px 0;
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00; /* Neon green effect */
+}
+
+.welcome-message {
+    font-size: 64px; /* Larger font size */
+    margin: 50px 0; /* Margin for spacing */
+    font-family: 'Russo One', sans-serif; /* Marvel-like font */
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); /* Text shadow for depth */
+}
+
+.card-container {
+    display: flex;
+    justify-content: center; /* Center cards horizontally */
+    gap: 20px; /* Space between cards */
+    margin: 20px 0; /* Margin for spacing */
+}
+
+.card {
+    background-color: #FFA500; /* Orange card background */
+    color: #000000; /* Black text color */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00; /* Neon effect on hover */
+}
